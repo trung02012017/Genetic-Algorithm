@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f664d60-b527-4c15-9b58-aaace0bc5738" name="Default Changelist" comment="" />
+    <list default="true" id="8f664d60-b527-4c15-9b58-aaace0bc5738" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GA.py" beforeDir="false" afterPath="$PROJECT_DIR$/GA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result GA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_GA.csv" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +50,54 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-889588011">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="54" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="54" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="3" />
+          <entry key="png" value="1" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
-              <caret line="170" column="73" lean-forward="true" selection-start-line="170" selection-start-column="73" selection-end-line="170" selection-end-column="73" />
+            <state relative-caret-position="-1782">
+              <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1541673751126" expanded="true" signature="98:99" ph="..." />
-                <marker date="1541673751126" expanded="true" signature="98:100" ph="..." />
-                <marker date="1541673751126" expanded="true" signature="854:1095" ph="..." />
-                <marker date="1541673751126" expanded="true" signature="1895:2021" ph="..." />
-                <marker date="1541673751126" expanded="true" signature="4602:5113" ph="..." />
+                <marker date="1541724996777" expanded="true" signature="98:99" ph="..." />
+                <marker date="1541724996777" expanded="true" signature="98:100" ph="..." />
+                <marker date="1541724996777" expanded="true" signature="856:1528" ph="..." />
+                <marker date="1541724996777" expanded="true" signature="2410:2536" ph="..." />
+                <marker date="1541724996777" expanded="true" signature="5117:5623" ph="..." />
+                <marker date="1541724996777" expanded="true" signature="5641:5650" ph="..." />
               </folding>
             </state>
           </provider>
@@ -67,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="143">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <marker date="1541673977315" expanded="true" signature="90:299" ph="..." />
@@ -79,8 +118,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/result GA.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/result_GA.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16693" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -97,13 +138,16 @@
       <find>print</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/abc.py" />
         <option value="$PROJECT_DIR$/ga_demo.py" />
-        <option value="$PROJECT_DIR$/GA.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/GA.py" />
       </list>
     </option>
   </component>
@@ -123,8 +167,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="GA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA" type="462c0819:PsiDirectoryNode" />
+              <item name="Genetic-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Genetic-Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code/tensorflow/AI_Tensorflow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,7 +313,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2646154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2646154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,55 +326,55 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2646154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ga_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="136" column="29" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/abc.py" />
+    <entry file="file://$PROJECT_DIR$/ga_demo.py" />
+    <entry file="file://$PROJECT_DIR$/result GA.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="170" column="73" lean-forward="true" selection-start-line="170" selection-start-column="73" selection-end-line="170" selection-end-column="73" />
+        <state relative-caret-position="-1782">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1541673751126" expanded="true" signature="98:99" ph="..." />
-            <marker date="1541673751126" expanded="true" signature="98:100" ph="..." />
-            <marker date="1541673751126" expanded="true" signature="854:1095" ph="..." />
-            <marker date="1541673751126" expanded="true" signature="1895:2021" ph="..." />
-            <marker date="1541673751126" expanded="true" signature="4602:5113" ph="..." />
+            <marker date="1541724996777" expanded="true" signature="98:99" ph="..." />
+            <marker date="1541724996777" expanded="true" signature="98:100" ph="..." />
+            <marker date="1541724996777" expanded="true" signature="856:1528" ph="..." />
+            <marker date="1541724996777" expanded="true" signature="2410:2536" ph="..." />
+            <marker date="1541724996777" expanded="true" signature="5117:5623" ph="..." />
+            <marker date="1541724996777" expanded="true" signature="5641:5650" ph="..." />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result_GA.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16693" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="143">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <marker date="1541673977315" expanded="true" signature="90:299" ph="..." />
@@ -339,8 +383,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result GA.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/result_GA.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16693" />
+      </provider>
     </entry>
   </component>
 </project>

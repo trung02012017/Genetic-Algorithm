@@ -16,7 +16,7 @@ class GenericAlgorithm(object):
 
     def initialize_population(self):
 
-        init_population = np.random.uniform(-5, 5, (self.pop_size, self.gen_size))
+        init_population = np.random.uniform(-10, 10, (self.pop_size, self.gen_size))
 
         return init_population
 
@@ -28,10 +28,23 @@ class GenericAlgorithm(object):
 
         return population
 
+    # def get_fitness(self, pop):
+    #     fitness = np.zeros((self.pop_size, 1))
+    #     for i in range(0, self.pop_size):
+    #         sum = 0
+    #         # print(pop[i])
+    #         for j in range(0, self.gen_size):
+    #             if (j % 2 == 0):
+    #                 sum += pop[i, j] ** 2
+    #             else:
+    #                 sum += pop[i, j] ** 3
+    #         fitness[i] = sum
+    #     return fitness
+
     def get_fitness(self, population):
         fitness_value = np.zeros((self.pop_size, 1))
-        fitness = 0
         for i in range(self.pop_size):
+            fitness = 0
             for j in range(self.gen_size):
                 if j % 2 == 0:
                     fitness += population[i, j]**2
@@ -45,8 +58,11 @@ class GenericAlgorithm(object):
 
         fitness_value = self.get_fitness(population)
         indices = np.where(fitness_value == np.min(fitness_value))[0]
-        best_solution = population[indices, :]
-        best_fitness = fitness_value[indices]
+        index = indices[0]
+        # print(indices)
+        best_solution = population[index, :]
+        best_fitness = fitness_value[index]
+        # print(best_fitness)
         return best_fitness.reshape((1,))
 
     def get_index_chromosome_by_fitness(self, value, fitness_value, population):
@@ -147,7 +163,6 @@ class GenericAlgorithm(object):
         else:
             with open('result_GA.csv', 'a') as csv_file:
                 df.to_csv(csv_file, mode='a', header=False, index=False)
-
 
 
     def run(self):
